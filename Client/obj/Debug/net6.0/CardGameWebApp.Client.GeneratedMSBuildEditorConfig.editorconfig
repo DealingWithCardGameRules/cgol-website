@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = CardGameWebApp.Client
+build_property.RootNamespace = CardGameWebApp.Client
+build_property.ProjectDir = E:\Projekter\cgol-website\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Projekter\cgol-website\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Projekter/cgol-website/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/ActionPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY3Rpb25Qcm9tcHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/Deck.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWNrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/EzInput.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFeklucHV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/FileView.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGaWxlVmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/GameSimulator.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHYW1lU2ltdWxhdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/Hand.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIYW5kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/HighlightEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIaWdobGlnaHRFZGl0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/SelectCardPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWxlY3RDYXJkUHJvbXB0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/ToastContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2FzdENvbnRhaW5lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/YesNoPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xZZXNOb1Byb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Components/Zone.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xab25lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Pages/ChatDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdERlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Pages/Draw1Play1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJhdzFQbGF5MS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Pages/Play.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Pages/Sandbox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuZGJveC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Pages/Studio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projekter/cgol-website/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ifraocnbwf

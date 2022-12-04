@@ -1,0 +1,1 @@
+if (PlayerAgree 2 "Vil du vinde?") Win 2	
