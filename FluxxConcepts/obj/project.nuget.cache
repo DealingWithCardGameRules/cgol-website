@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "WiOAWDAX3XcG+tvPfRZaglXLuOpIrYckIwksiUvvMDeRWcyUkn3e/mwxt2QyxLIeZWW4RSDMIO6oXjSoMZDjMQ==",
+  "success": false,
+  "projectFilePath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {}
+  },
+  "projects": {
+    "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+        "projectName": "dk.itu.game.msc.cgol.FluxxConcepts",
+        "projectPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+        "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
+        "outputPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj": {
+                "projectPath": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj"
+              },
+              "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj": {
+                "projectPath": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

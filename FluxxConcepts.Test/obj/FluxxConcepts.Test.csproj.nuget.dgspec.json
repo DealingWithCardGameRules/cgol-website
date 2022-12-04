@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projekter\\cgol-website\\FluxxConcepts.Test\\FluxxConcepts.Test.csproj": {}
+  },
+  "projects": {
+    "E:\\Projekter\\cgol-website\\FluxxConcepts.Test\\FluxxConcepts.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projekter\\cgol-website\\FluxxConcepts.Test\\FluxxConcepts.Test.csproj",
+        "projectName": "FluxxConcepts.Test",
+        "projectPath": "E:\\Projekter\\cgol-website\\FluxxConcepts.Test\\FluxxConcepts.Test.csproj",
+        "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
+        "outputPath": "E:\\Projekter\\cgol-website\\FluxxConcepts.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {
+                "projectPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+        "projectName": "dk.itu.game.msc.cgol.FluxxConcepts",
+        "projectPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+        "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
+        "outputPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj": {
+                "projectPath": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj"
+              },
+              "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj": {
+                "projectPath": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

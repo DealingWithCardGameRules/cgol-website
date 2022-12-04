@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj",
+      "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vasev\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+      "projectName": "dk.itu.game.msc.cgol.FluxxConcepts",
+      "projectPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+      "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
+      "outputPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj": {
+              "projectPath": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj"
+            },
+            "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj": {
+              "projectPath": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

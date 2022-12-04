@@ -1,0 +1,15 @@
+E:\Projekter\cgol\FluxxConcepts\bin\Debug\netstandard2.1\FluxxConcepts.deps.json
+E:\Projekter\cgol\FluxxConcepts\bin\Debug\netstandard2.1\FluxxConcepts.dll
+E:\Projekter\cgol\FluxxConcepts\bin\Debug\netstandard2.1\FluxxConcepts.pdb
+E:\Projekter\cgol\FluxxConcepts\bin\Debug\netstandard2.1\Common.dll
+E:\Projekter\cgol\FluxxConcepts\bin\Debug\netstandard2.1\Distribution.dll
+E:\Projekter\cgol\FluxxConcepts\bin\Debug\netstandard2.1\Distribution.pdb
+E:\Projekter\cgol\FluxxConcepts\bin\Debug\netstandard2.1\Common.pdb
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.csproj.AssemblyReference.cache
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.AssemblyInfoInputs.cache
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.AssemblyInfo.cs
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.csproj.CoreCompileInputs.cache
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.csproj.CopyComplete
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.dll
+E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.pdb
