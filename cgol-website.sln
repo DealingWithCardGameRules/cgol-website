@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGameWebApp.Server", "Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGameWebApp.Shared", "Shared\CardGameWebApp.Shared.csproj", "{E3EC5C04-F17D-48ED-B6CD-914CEB0CC307}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluxxConcepts", "FluxxConcepts\FluxxConcepts.csproj", "{B1190843-C6A5-4D3E-B6BD-9835BCFE6F50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluxxConcepts.Test", "FluxxConcepts.Test\FluxxConcepts.Test.csproj", "{ED01449E-C94A-4362-981B-466BA0846654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E3EC5C04-F17D-48ED-B6CD-914CEB0CC307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3EC5C04-F17D-48ED-B6CD-914CEB0CC307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3EC5C04-F17D-48ED-B6CD-914CEB0CC307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1190843-C6A5-4D3E-B6BD-9835BCFE6F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1190843-C6A5-4D3E-B6BD-9835BCFE6F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1190843-C6A5-4D3E-B6BD-9835BCFE6F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1190843-C6A5-4D3E-B6BD-9835BCFE6F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED01449E-C94A-4362-981B-466BA0846654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED01449E-C94A-4362-981B-466BA0846654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED01449E-C94A-4362-981B-466BA0846654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED01449E-C94A-4362-981B-466BA0846654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
