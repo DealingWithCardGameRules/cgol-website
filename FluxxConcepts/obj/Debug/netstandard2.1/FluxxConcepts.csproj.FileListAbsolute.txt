@@ -13,3 +13,13 @@ E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.csproj.Co
 E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.csproj.CopyComplete
 E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.dll
 E:\Projekter\cgol\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.pdb
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\bin\Debug\netstandard2.1\FluxxConcepts.deps.json
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\bin\Debug\netstandard2.1\FluxxConcepts.dll
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\bin\Debug\netstandard2.1\FluxxConcepts.pdb
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.csproj.AssemblyReference.cache
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.AssemblyInfoInputs.cache
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.AssemblyInfo.cs
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.csproj.CoreCompileInputs.cache
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.dll
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\FluxxConcepts\obj\Debug\netstandard2.1\FluxxConcepts.pdb

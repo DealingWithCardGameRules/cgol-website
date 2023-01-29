@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommandCentral\Distribution.csproj" />
-    <ProjectReference Include="..\CommonConcepts\Common.csproj" />
+    <PackageReference Include="CGOL.Common" Version="1.0.0" />
+    <PackageReference Include="CGOL.Distribution" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

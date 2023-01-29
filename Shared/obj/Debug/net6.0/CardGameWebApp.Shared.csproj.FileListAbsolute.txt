@@ -1,0 +1,12 @@
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\bin\Debug\net6.0\CardGameWebApp.Shared.deps.json
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\bin\Debug\net6.0\CardGameWebApp.Shared.dll
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\bin\Debug\net6.0\CardGameWebApp.Shared.pdb
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\CardGameWebApp.Shared.csproj.AssemblyReference.cache
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\CardGameWebApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\CardGameWebApp.Shared.AssemblyInfoInputs.cache
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\CardGameWebApp.Shared.AssemblyInfo.cs
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\CardGameWebApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\CardGameWebApp.Shared.dll
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\refint\CardGameWebApp.Shared.dll
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\CardGameWebApp.Shared.pdb
+C:\Users\vasev\Source\Repos\DealingWithCardGameRules\cgol-website\Shared\obj\Debug\net6.0\ref\CardGameWebApp.Shared.dll

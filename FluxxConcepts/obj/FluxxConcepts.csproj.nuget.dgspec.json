@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {}
+    "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {}
   },
   "projects": {
-    "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {
+    "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+        "projectUniqueName": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
         "projectName": "dk.itu.game.msc.cgol.FluxxConcepts",
-        "projectPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+        "projectPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
         "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\obj\\",
+        "outputPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -27,14 +30,7 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {
-              "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj": {
-                "projectPath": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj"
-              },
-              "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj": {
-                "projectPath": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -46,6 +42,16 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "CGOL.Common": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "CGOL.Distribution": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

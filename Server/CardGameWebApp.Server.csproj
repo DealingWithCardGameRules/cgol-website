@@ -24,14 +24,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CGOL" Version="1.0.1" />
+    <PackageReference Include="CGOL.Common" Version="1.0.0" />
+    <PackageReference Include="CGOL.Distribution" Version="1.0.0" />
+    <PackageReference Include="CGOL.Representation" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.3" />
     <PackageReference Include="System.Text.Json" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Agents\Agents.csproj" />
-    <ProjectReference Include="..\..\CardGameDL\CGOL.csproj" />
-    <ProjectReference Include="..\..\Representation\Representation.csproj" />
     <ProjectReference Include="..\Client\CardGameWebApp.Client.csproj" />
     <ProjectReference Include="..\Shared\CardGameWebApp.Shared.csproj" />
   </ItemGroup>

@@ -1,27 +1,210 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "CGOL.Common/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CGOL.Distribution": "1.0.0",
+          "System.Linq.Async": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Common.dll": {}
+        }
+      },
+      "CGOL.Distribution/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Distribution.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Distribution.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/Microsoft.CSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Linq.Async/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Linq.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Linq.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CGOL.Common/1.0.0": {
+      "sha512": "7RYZ0hy/mkg0BxQQ/3rOJaHwiul9hmmT8BhO6PGWy4ZNAkxHR9oMAs1WiSH6EmW7sXSxiLLrvMhO+GqOqXfYVA==",
+      "type": "package",
+      "path": "cgol.common/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "cgol-icon.png",
+        "cgol.common.1.0.0.nupkg.sha512",
+        "cgol.common.nuspec",
+        "lib/netstandard2.1/Common.dll"
+      ]
+    },
+    "CGOL.Distribution/1.0.0": {
+      "sha512": "mXBTslzA5D4uURJgZUYP53IjdHpougGK/JQBzy8pXy5qFBQtJnwbPTHIWYj+1LFshkb381jTD1n6iNoZj+cZmA==",
+      "type": "package",
+      "path": "cgol.distribution/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "cgol-icon.png",
+        "cgol.distribution.1.0.0.nupkg.sha512",
+        "cgol.distribution.nuspec",
+        "lib/netstandard2.1/Distribution.dll"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Linq.Async/4.0.0": {
+      "sha512": "WbiYEedFZeM+psmMyoCt1AKbZppAZg8Eq1ZTQ+521fGNeXqlgJj0tZYV5n1LsKRO5osQuitYxGNuzPTy3213sg==",
+      "type": "package",
+      "path": "system.linq.async/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/System.Linq.Async.dll",
+        "lib/net461/System.Linq.Async.xml",
+        "lib/netcoreapp3.0/System.Linq.Async.dll",
+        "lib/netcoreapp3.0/System.Linq.Async.xml",
+        "lib/netstandard2.0/System.Linq.Async.dll",
+        "lib/netstandard2.0/System.Linq.Async.xml",
+        "lib/netstandard2.1/System.Linq.Async.dll",
+        "lib/netstandard2.1/System.Linq.Async.xml",
+        "ref/net461/System.Linq.Async.dll",
+        "ref/net461/System.Linq.Async.xml",
+        "ref/netcoreapp3.0/System.Linq.Async.dll",
+        "ref/netcoreapp3.0/System.Linq.Async.xml",
+        "ref/netstandard2.0/System.Linq.Async.dll",
+        "ref/netstandard2.0/System.Linq.Async.xml",
+        "ref/netstandard2.1/System.Linq.Async.dll",
+        "ref/netstandard2.1/System.Linq.Async.xml",
+        "system.linq.async.4.0.0.nupkg.sha512",
+        "system.linq.async.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj",
-      "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj"
+      "CGOL.Common >= 1.0.0",
+      "CGOL.Distribution >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vasev\\.nuget\\packages\\": {}
+    "C:\\Users\\vasev\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+      "projectUniqueName": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
       "projectName": "dk.itu.game.msc.cgol.FluxxConcepts",
-      "projectPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+      "projectPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
       "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
-      "outputPath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\obj\\",
+      "outputPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -36,14 +219,7 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {
-            "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj": {
-              "projectPath": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj"
-            },
-            "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj": {
-              "projectPath": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -55,6 +231,16 @@
     "frameworks": {
       "netstandard2.1": {
         "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "CGOL.Common": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CGOL.Distribution": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -71,28 +257,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

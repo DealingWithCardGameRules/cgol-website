@@ -9,11 +9,34 @@
     ".NETStandard,Version=v2.1/": {
       "FluxxConcepts/1.0.0": {
         "dependencies": {
-          "dk.itu.game.msc.cgol.Common": "1.0.0",
-          "dk.itu.game.msc.cgol.Distribution": "1.0.0"
+          "CGOL.Common": "1.0.0",
+          "CGOL.Distribution": "1.0.0"
         },
         "runtime": {
           "FluxxConcepts.dll": {}
+        }
+      },
+      "CGOL.Common/1.0.0": {
+        "dependencies": {
+          "CGOL.Distribution": "1.0.0",
+          "System.Linq.Async": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CGOL.Distribution/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Distribution.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.CSharp/4.7.0": {
@@ -31,23 +54,6 @@
             "fileVersion": "4.0.0.2"
           }
         }
-      },
-      "dk.itu.game.msc.cgol.Common/1.0.0": {
-        "dependencies": {
-          "System.Linq.Async": "4.0.0",
-          "dk.itu.game.msc.cgol.Distribution": "1.0.0"
-        },
-        "runtime": {
-          "Common.dll": {}
-        }
-      },
-      "dk.itu.game.msc.cgol.Distribution/1.0.0": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0"
-        },
-        "runtime": {
-          "Distribution.dll": {}
-        }
       }
     }
   },
@@ -56,6 +62,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CGOL.Common/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7RYZ0hy/mkg0BxQQ/3rOJaHwiul9hmmT8BhO6PGWy4ZNAkxHR9oMAs1WiSH6EmW7sXSxiLLrvMhO+GqOqXfYVA==",
+      "path": "cgol.common/1.0.0",
+      "hashPath": "cgol.common.1.0.0.nupkg.sha512"
+    },
+    "CGOL.Distribution/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mXBTslzA5D4uURJgZUYP53IjdHpougGK/JQBzy8pXy5qFBQtJnwbPTHIWYj+1LFshkb381jTD1n6iNoZj+cZmA==",
+      "path": "cgol.distribution/1.0.0",
+      "hashPath": "cgol.distribution.1.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -70,16 +90,6 @@
       "sha512": "sha512-WbiYEedFZeM+psmMyoCt1AKbZppAZg8Eq1ZTQ+521fGNeXqlgJj0tZYV5n1LsKRO5osQuitYxGNuzPTy3213sg==",
       "path": "system.linq.async/4.0.0",
       "hashPath": "system.linq.async.4.0.0.nupkg.sha512"
-    },
-    "dk.itu.game.msc.cgol.Common/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "dk.itu.game.msc.cgol.Distribution/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

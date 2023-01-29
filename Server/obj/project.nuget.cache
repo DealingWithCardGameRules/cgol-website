@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "5PyiPUS1m2sh7Et59Gv9M303VMHh3kKR48+Jyl6ojlcP9cfcLDFFz1LHtRtG+Zc7h84IdUPCFoBRkFJ39yzc3g==",
-  "success": false,
-  "projectFilePath": "E:\\Projekter\\cgol-website\\Server\\CardGameWebApp.Server.csproj",
+  "dgSpecHash": "IvJz5DsNdjhVyaLUqq+lf4GtPhV4JxPLOPX24UjP7oH+b6JQpcLK0mOY9OHujdoi3AQxTRaHvJ1OJyjzIpvRAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Server\\CardGameWebApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vasev\\.nuget\\packages\\blazorcomponentutilities\\1.7.1\\blazorcomponentutilities.1.7.1.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\blazorstrap\\5.0.104\\blazorstrap.5.0.104.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol\\1.0.1\\cgol.1.0.1.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.agents\\1.0.1\\cgol.agents.1.0.1.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.common\\1.0.0\\cgol.common.1.0.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.distribution\\1.0.0\\cgol.distribution.1.0.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.gameevents\\1.0.0\\cgol.gameevents.1.0.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.parser\\1.0.1\\cgol.parser.1.0.1.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.representation\\1.0.0\\cgol.representation.1.0.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.state\\1.0.0\\cgol.state.1.0.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\microsoft.aspnetcore.authorization.6.0.3.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.3\\microsoft.aspnetcore.components.6.0.3.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.3\\microsoft.aspnetcore.components.analyzers.6.0.3.nupkg.sha512",
@@ -22,6 +30,7 @@
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\7.0.0-preview.2.22153.2\\microsoft.aspnetcore.signalr.common.7.0.0-preview.2.22153.2.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\7.0.0-preview.2.22153.2\\microsoft.aspnetcore.signalr.protocols.json.7.0.0-preview.2.22153.2.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
@@ -42,9 +51,12 @@
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\pluralize.net\\1.0.2\\pluralize.net.1.0.2.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.0-preview.2.22152.2\\system.diagnostics.diagnosticsource.7.0.0-preview.2.22152.2.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\system.io.pipelines\\7.0.0-preview.2.22152.2\\system.io.pipelines.7.0.0-preview.2.22152.2.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\system.linq.async\\4.0.0\\system.linq.async.4.0.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\system.net.http.json\\7.0.0\\system.net.http.json.7.0.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\7.0.0-preview.2.22152.2\\system.runtime.compilerservices.unsafe.7.0.0-preview.2.22152.2.nupkg.sha512",
@@ -54,42 +66,5 @@
     "C:\\Users\\vasev\\.nuget\\packages\\system.threading.channels\\7.0.0-preview.2.22152.2\\system.threading.channels.7.0.0-preview.2.22152.2.nupkg.sha512",
     "C:\\Users\\vasev\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\Agents\\Agents.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\Agents\\Agents.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\CardGameDL\\CGOL.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\CardGameDL\\CGOL.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\Representation\\Representation.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\Representation\\Representation.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\LanguageParser\\Parser.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\LanguageParser\\Parser.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

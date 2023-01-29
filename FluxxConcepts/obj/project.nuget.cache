@@ -1,27 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WiOAWDAX3XcG+tvPfRZaglXLuOpIrYckIwksiUvvMDeRWcyUkn3e/mwxt2QyxLIeZWW4RSDMIO6oXjSoMZDjMQ==",
-  "success": false,
-  "projectFilePath": "E:\\Projekter\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\cgol-website\\CommandCentral\\Distribution.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Projekter\\cgol-website\\CommonConcepts\\Common.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "dgSpecHash": "r3JsoruodJmB5fF1iqB2Z5Avo7Lu7TrdwwUDvDqs6KcpdgErk5Kg8sQ0S/i0tPU5wVCv3t2Pt0O80P4mCiDoHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\FluxxConcepts\\FluxxConcepts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.common\\1.0.0\\cgol.common.1.0.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\cgol.distribution\\1.0.0\\cgol.distribution.1.0.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\vasev\\.nuget\\packages\\system.linq.async\\4.0.0\\system.linq.async.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }

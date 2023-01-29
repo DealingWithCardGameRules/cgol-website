@@ -39,6 +39,29 @@
           }
         }
       },
+      "CGOL.Common/1.0.0": {
+        "dependencies": {
+          "CGOL.Distribution": "1.0.0",
+          "System.Linq.Async": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CGOL.Distribution/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Distribution.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "coverlet.collector/3.0.2": {},
       "Microsoft.CodeCoverage/16.9.4": {
         "runtime": {
@@ -1163,27 +1186,10 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "dk.itu.game.msc.cgol.Common/1.0.0": {
-        "dependencies": {
-          "System.Linq.Async": "4.0.0",
-          "dk.itu.game.msc.cgol.Distribution": "1.0.0"
-        },
-        "runtime": {
-          "Common.dll": {}
-        }
-      },
-      "dk.itu.game.msc.cgol.Distribution/1.0.0": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0"
-        },
-        "runtime": {
-          "Distribution.dll": {}
-        }
-      },
       "dk.itu.game.msc.cgol.FluxxConcepts/1.0.0": {
         "dependencies": {
-          "dk.itu.game.msc.cgol.Common": "1.0.0",
-          "dk.itu.game.msc.cgol.Distribution": "1.0.0"
+          "CGOL.Common": "1.0.0",
+          "CGOL.Distribution": "1.0.0"
         },
         "runtime": {
           "FluxxConcepts.dll": {}
@@ -1203,6 +1209,20 @@
       "sha512": "sha512-zanbjWC0Y05gbx4eGXkzVycOQqVOFVeCjVsDSyuao9P4mtN1w3WxxTo193NGC7j3o2u3AJRswaoC6hEbnGACnQ==",
       "path": "castle.core/4.4.1",
       "hashPath": "castle.core.4.4.1.nupkg.sha512"
+    },
+    "CGOL.Common/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7RYZ0hy/mkg0BxQQ/3rOJaHwiul9hmmT8BhO6PGWy4ZNAkxHR9oMAs1WiSH6EmW7sXSxiLLrvMhO+GqOqXfYVA==",
+      "path": "cgol.common/1.0.0",
+      "hashPath": "cgol.common.1.0.0.nupkg.sha512"
+    },
+    "CGOL.Distribution/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mXBTslzA5D4uURJgZUYP53IjdHpougGK/JQBzy8pXy5qFBQtJnwbPTHIWYj+1LFshkb381jTD1n6iNoZj+cZmA==",
+      "path": "cgol.distribution/1.0.0",
+      "hashPath": "cgol.distribution.1.0.0.nupkg.sha512"
     },
     "coverlet.collector/3.0.2": {
       "type": "package",
@@ -1875,16 +1895,6 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
-    },
-    "dk.itu.game.msc.cgol.Common/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "dk.itu.game.msc.cgol.Distribution/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "dk.itu.game.msc.cgol.FluxxConcepts/1.0.0": {
       "type": "project",

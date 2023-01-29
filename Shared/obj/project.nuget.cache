@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J6ocl5N0jrc3qgPDyO+9nUeSuPZ3e/bJO/4w2fz8hmK2larkSn8Gks95GeGBO2j2BSvioqpXOpmwSL1GvJdErA==",
+  "dgSpecHash": "epMC7etVGr8gUcPVF3ku25Pa11FcSbkaP1kgWg2EXFQB+jdKmnPO6ZOZSQU6TazR80HQRVmZChUbeO5Hm+Q9+g==",
   "success": true,
-  "projectFilePath": "E:\\Projekter\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj",
+  "projectFilePath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

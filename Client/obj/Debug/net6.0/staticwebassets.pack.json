@@ -1,0 +1,133 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\obj\\Debug\\net6.0\\build-gz\\7CK2SlyE.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CardGameWebApp.Client.styles.css",
+      "PackagePath": "staticwebassets\\CardGameWebApp.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\illustrations\\Draw.png",
+      "PackagePath": "staticwebassets\\illustrations\\Draw.png"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\illustrations\\Pass.png",
+      "PackagePath": "staticwebassets\\illustrations\\Pass.png"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\illustrations\\Play.png",
+      "PackagePath": "staticwebassets\\illustrations\\Play.png"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\illustrations\\cgol.png",
+      "PackagePath": "staticwebassets\\illustrations\\cgol.png"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\illustrations\\d1p1.png",
+      "PackagePath": "staticwebassets\\illustrations\\d1p1.png"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\illustrations\\logo.png",
+      "PackagePath": "staticwebassets\\illustrations\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\illustrations\\placeholder.png",
+      "PackagePath": "staticwebassets\\illustrations\\placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\javascript\\app.js",
+      "PackagePath": "staticwebassets\\javascript\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\javascript\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\javascript\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\javascript\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\javascript\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\javascript\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\javascript\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\wwwroot\\javascript\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\javascript\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CardGameWebApp.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CardGameWebApp.Client.props",
+      "PackagePath": "build\\CardGameWebApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CardGameWebApp.Client.props",
+      "PackagePath": "buildMultiTargeting\\CardGameWebApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CardGameWebApp.Client.props",
+      "PackagePath": "buildTransitive\\CardGameWebApp.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

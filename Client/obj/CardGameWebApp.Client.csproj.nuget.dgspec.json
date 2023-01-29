@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projekter\\cgol-website\\Client\\CardGameWebApp.Client.csproj": {}
+    "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\CardGameWebApp.Client.csproj": {}
   },
   "projects": {
-    "E:\\Projekter\\cgol-website\\Client\\CardGameWebApp.Client.csproj": {
+    "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\CardGameWebApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekter\\cgol-website\\Client\\CardGameWebApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\CardGameWebApp.Client.csproj",
         "projectName": "CardGameWebApp.Client",
-        "projectPath": "E:\\Projekter\\cgol-website\\Client\\CardGameWebApp.Client.csproj",
+        "projectPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\CardGameWebApp.Client.csproj",
         "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekter\\cgol-website\\Client\\obj\\",
+        "outputPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -28,11 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Projekter\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj": {
-                "projectPath": "E:\\Projekter\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj"
-              },
-              "E:\\Projekter\\LanguageParser\\Parser.csproj": {
-                "projectPath": "E:\\Projekter\\LanguageParser\\Parser.csproj"
+              "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj"
               }
             }
           }
@@ -50,6 +50,22 @@
             "BlazorStrap": {
               "target": "Package",
               "version": "[5.0.104, )"
+            },
+            "CGOL.Agents": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "CGOL.Common": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "CGOL.Distribution": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "CGOL.Parser": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -95,7 +111,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.10, 6.0.10]"
+              "version": "[6.0.13, 6.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -103,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -112,15 +128,18 @@
         }
       }
     },
-    "E:\\Projekter\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj": {
+    "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekter\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj",
         "projectName": "CardGameWebApp.Shared",
-        "projectPath": "E:\\Projekter\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj",
+        "projectPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Shared\\CardGameWebApp.Shared.csproj",
         "packagesPath": "C:\\Users\\vasev\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekter\\cgol-website\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\vasev\\Source\\Repos\\DealingWithCardGameRules\\cgol-website\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\vasev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -163,7 +182,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,6 +6,10 @@
 
   <ItemGroup>
     <PackageReference Include="BlazorStrap" Version="5.0.104" />
+    <PackageReference Include="CGOL.Agents" Version="1.0.1" />
+    <PackageReference Include="CGOL.Common" Version="1.0.0" />
+    <PackageReference Include="CGOL.Distribution" Version="1.0.0" />
+    <PackageReference Include="CGOL.Parser" Version="1.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.3" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.0-preview.2.22153.2" />
@@ -16,7 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\LanguageParser\Parser.csproj" />
     <ProjectReference Include="..\Shared\CardGameWebApp.Shared.csproj" />
   </ItemGroup>
 
