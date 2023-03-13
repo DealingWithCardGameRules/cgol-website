@@ -137,10 +137,32 @@
 							"CreateDeck \"discard pile\"\n" +
 							"CreateHand \"player\" 1\n" +
 							"CreateCard \"pass\"\n" +
-							"Instantaneous \"pass\" PlaceIn \"discard pile\"\n" +
+							"When \"pass\" Played \"discard pile\"\n" +
 							"AddCard \"pass\" \"deck\"\n" +
 							"Play DrawCard \"deck\" \"player\"\n" +
-							"Play PlayCard \"player\"" }
+							"Play PlayCard \"player\""},
+
+		{"State base", "SetPlayers 1\n" +
+						"CreateDeck \"deck\"\n" +
+						"CreateDeck \"discard pile\"\n" +
+						"CreateHand \"player\"\n" +
+						"CreateCard \"Draw 1 Play 1 Rules\"\n" +
+						"When \"Draw 1 Play 1 Rules\" Active If (InState \"Draw\") Play \"Draw\":\n" +
+						"	DrawCard \"deck\" \"player\"\n" +
+						"	ChangeState \"Play\"\n" +
+						"When \"Draw 1 Play 1 Rules\" Active If (InState \"Play\") Play \"Play\":\n" +
+						"	PlayCard \"player\"\n" +
+						"	ChangeState \"Draw\"\n" +
+						"CreateZone \"One Player Rules\"\n" +
+						"AddCard \"Draw 1 Play 1 Rules\" \"One Player Rules\"\n"+
+						"CreateCard \"pass\"\n" +
+						"When \"pass\" Played:\n" +
+						"	PlaceIn \"discard pile\"\n" +
+						"	AddCard \"pass\" \"deck\" //Infinite game\n" +
+						"AddCard \"pass\" \"deck\"\n" +
+						"ChangeState \"Draw\"\n" +
+						"Start"
+		}
 	};
 
 	private void SelectPreload(string preload)
